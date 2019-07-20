@@ -1,0 +1,56 @@
+.cell{
+    width: 42%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    color: #999;
+}
+.cell .goodslist .goods_img_box {
+    width: 100%;
+    height: 100px;
+}
+.cell .goodslist .goods_img_box img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.cell .goodslist .name {
+    margin: 15px 0 0 15px;
+}
+.cell .goodslist .name .goodlist_discount{
+    float:right;
+    line-height:18px;
+    border:1px solid #f8584f;
+    text-align:center;
+    color:#f8584f;
+    background:#fdedec;
+}
+.cell .goodslist .name .brand_name{
+    float:left;
+    font:14px/18px "";
+    color:#919191;
+}
+.cell .goodslist .name span{
+    display:block;
+    width:100%;
+    height:20px;
+    margin-top:5px;
+    overflow:hidden;
+    font:14px/20px "";
+    color:#222;
+}
+.cell .goodslist .price {
+    margin: 10px 16px 0 16px;
+}
+.cell .goodslist .price b{
+    font:800 14px/18px "";
+    color:#f8584f;
+    display:inline-block;
+    margin-right:5px;
+}
+.cell .goodslist .price i{
+    font:12px/18px "";
+    display:inline-block;
+    color:#919191;
+    text-decoration: line-through;
+}
+

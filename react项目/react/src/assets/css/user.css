@@ -1,0 +1,55 @@
+.user-content{
+    position:relative;
+    top:50px;
+}
+.menulist li {
+    font-size: 14px;
+    padding-left: 10px;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    line-height: 30px;
+    position: relative;
+}
+.menulist li span {
+    float:left;
+    margin-left: 1.4%;
+}
+.menulist li b{
+    float:right;
+    margin-right: 1.4%;
+}
+.menulist li em{
+    background-color: #d93229;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.userinfo{overflow:hidden;}
+.userinfo li {
+    margin-left:10px;
+    font-size:12px;
+    line-height:45px;
+}
+.userinfo img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.moneyinfo li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+}
+.moneyinfo li:first-child {
+    border-right: 1px #EEEEEE solid;
+}
+.redfont {
+    color: #D93229;
+    font-size: 16px;
+}

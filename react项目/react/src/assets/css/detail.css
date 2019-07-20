@@ -1,0 +1,126 @@
+.detail header{
+    height:40px;
+    position:fixed;
+}
+.navtitle {
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #ed0122;
+    text-align: center;
+    line-height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navtitle .navtitle-goback{
+    float:left;
+    width:20px;
+    height:20px;
+    margin:10px;
+    background:url(../images/return.png) no-repeat center;
+    background-size:cover;
+
+}
+.navtitle .navtitle-car{
+    float:right;
+    width:20px;
+    height:20px;
+    margin:10px;
+    background:url(../images/car.png) no-repeat center;
+    background-size:cover;
+}
+.n-title {
+    font-size: 18px;
+    text-shadow: 0px 2px 2px #B76714;
+}
+.plist3{overflow:hidden;margin-top:50px;width:100%;}
+.plist3 li {
+    padding: 2%;
+    border-bottom: 1px #EEEEEE solid;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 1.4%;
+    font-size: 12px;
+    color: #999;
+}
+.plist3 li .info {
+    width: 100%;
+}
+.menu {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-top: 1px #EEEEEE solid;
+}
+.menu i {
+    color: #999;
+    font-size: 12px;
+}
+.info{
+    color: #000;
+    text-align:center;
+    width:100%;
+}
+.info img{
+    width:100%;
+}
+.info p{
+    margin-top:10px;
+    font-size:14px;
+}
+.info .price{
+    line-height: 40px;
+    color: #d93229;
+}
+.info .price i{
+    font-size: 16px;
+    font-weight: bold;
+}
+.goods_service {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          padding:0 15%;
+          border-bottom: 1px solid #eaeaea;
+          border-top: 1px solid #eaeaea;
+          line-height: 2.2rem;
+          box-sizing: border-box;
+      }
+.goods_service span{
+    display:block;
+    float:left;
+    text-indent:25px;
+    margin-left:20px;
+    background:url(../images/mywap.png) no-repeat left;
+}
+
+.btngroup {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(213, 213, 213, 0.8);
+    border-top: 1px #CCCCCC solid;
+}
+.Miaoshu{
+    border-top: 1px #EEEEEE solid;
+    padding:5px 5px 50px 5px;
+    background-color: #FFFFFF;
+    line-height: 25px;
+}
+.Miaoshu img{
+    width: 100%;
+}
+.oldprice {
+    color: #999;
+    font-size: 12px;
+    margin-left: 5%;
+}
+.btngroup{
+    position:fixed;
+    bottom:10px;
+    padding-top:10px;
+    width:100%;
+    background:#fff;
+}
